@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.asosiy {
+    max-width: 1440px;
+    margin: auto;
+    border: 5px solid black;
+    height: 6000px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 50px;
+}
+.link {
+    display: flex;
+    gap: 24px;
+}
+
+
+.link a {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+
+}
+
+.header {
+    background-image: url("./Rectangle.png");
+    padding: 193px 50px;
+}
+
+.matnlar {
+    text-align: center;
+    color: white;
+}
